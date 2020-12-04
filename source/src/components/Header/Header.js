@@ -1,5 +1,7 @@
 import React , { Component } from "react";
 import Navbar from "./HeaderNav/HeaderNav";
+import { useHistory, useLocation } from 'react-router-dom';
+
 
 export default class Header extends Component {
     constructor(props)
@@ -12,12 +14,20 @@ export default class Header extends Component {
     }
 
     render() {
+        const pathName = window.location.pathname;
+        let className = "";
+
+        if(pathName !== "/")
+            className = "layout-header";
+
         return(
             <React.Fragment>
-                <header id="header">
+                <header className={className}>
                     <Navbar/>
                 </header>
             </React.Fragment>
         )
     }
 }
+
+

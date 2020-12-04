@@ -1,11 +1,9 @@
 import React from "react";
-import HomePage from "./containers/home/page";
+import Router from  "./Router"
 
 function App() {
     return (
-        <React.Fragment>
-            <HomePage/>
-        </React.Fragment>
+        <Router/>
     );
 }
 

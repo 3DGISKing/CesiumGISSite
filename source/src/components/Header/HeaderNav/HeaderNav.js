@@ -20,7 +20,7 @@ export default class Navbar extends Component {
                                 <ul className="nav navbar-nav">
                                     <li><a href="/app/">CesiumGIS</a></li>
                                     <li><a href="/portfolio/">Portfolio</a></li>
-                                    <li><a href="/blog/">Blog</a></li>
+                                    <li><a href="https://medium.com/@cesiumgis">Blog</a></li>
                                     <li><a href="/about/">About</a></li>
                                 </ul>
                             </div>
