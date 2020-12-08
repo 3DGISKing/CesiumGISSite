@@ -1,0 +1,11 @@
+ErrorDocument 404 /404.html
+
+<RequireAll>
+Require all granted
+</RequireAll>
+
+
+Options -MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.html [QSA,L]

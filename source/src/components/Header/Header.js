@@ -2,7 +2,6 @@ import React , { Component } from "react";
 import Navbar from "./HeaderNav/HeaderNav";
 import { useHistory, useLocation } from 'react-router-dom';
 
-
 export default class Header extends Component {
     constructor(props)
     {

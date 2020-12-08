@@ -19,10 +19,7 @@ export default class Footer extends Component {
                         <div className="container">
                             <div className="footer-bottom " style={{height: "250px"}}>
                                 <div className="footer-bottom-description" style={{fontSize: "16px", paddingTop: "10px", paddingBottom: "5px", color: "rgb(247, 249, 255)"}}>
-                                    I am finding an opportunity to work on a great 3D Web GIS project based on
-                                    CesiumJS,
-                                    but I’m still always open to discussing any GIS project or partnership opportunity.
-                                    I 'm willing to share my research result with you.
+
 
                                 </div>
                                 <div className="footer-bottom-social-links ">

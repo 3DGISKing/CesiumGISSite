@@ -5,7 +5,6 @@ import HomePage from "./containers/home/page";
 
 export default () =>
     <Switch>
-
         <Route path="/about">
             <AboutPage/>
         </Route>
