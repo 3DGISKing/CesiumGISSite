@@ -1,0 +1,58 @@
+<p><img src="/data/portfolio/potree/ground_clearance.png" alt="">
+    <em>step1</em>
+</p>
+
+
+<h2>
+    Job description
+</h2>
+
+<p>
+    It measures the vertical distance to the ground by clicking on one point (without the need to click on the ground). <br>
+    The objective of this request is to use it for any elevated cables (i.e. powerlines, telephone, etc) or infrastructures (bridges).<br>
+    We want to have a quick way of measuring the height of one point above the ground.<br>
+    In case of cables, it is very likely to have ground below  the cable, but we can make things easier for this request<br>
+    and calculate the height above the first object you find in the vertical projection of the point.<br>
+    When you click on a point, the tool draws the vertical line from the point to the ground and returns the height.
+
+</p>
+
+<p>
+    <h3>
+    Use case
+    </h3>
+
+    <ol>
+    <li>
+        user click the new tool button in Measurement Tool box.
+    </li>
+
+    <li>
+        user clicks any point.
+    </li>
+        At this time a sphere will be displayed(not one point). <br><br>
+        get clicked position.<br>
+        construct a RayCaster.<br>
+
+        RayCaster ‘s origin will be the position of the clicked position.<br><br>
+        get point cloud which intersects with RayCaster<br>
+        get the closest point in the selected point cloud.<br>
+
+        <li>
+            If the closest ground point is found, a line from the clicked position to the closest ground point will be shown and also an annotation which shows the vertical distance.
+            <br>
+            If not, nothing happens.
+        </li>
+
+        <li>
+            Mouse move will be not handled because it is expected this would be bit cpu intensive.
+        </li>
+
+    </ol>
+</p>
+
+<h2>
+    Skills and expertise:
+</h2>
+
+potree, Three.js

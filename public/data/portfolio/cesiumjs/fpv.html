@@ -1,0 +1,75 @@
+<iframe width="880" height="660"
+        src="https://www.youtube.com/embed/LZSScc82PQs">
+</iframe>
+
+
+<h2>
+    Job description
+</h2>
+
+<p>
+    The requirement is to create a basic 3D viewer that allows for First Person movement over a piece of 3D geometry. The viewer must be written to use the CesiumJS libraries
+    (<a href="https://cesiumjs.org"> https://cesiumjs.org</a>).
+    As a successful candidate, you must have previous knowledge and have used CesiumJS for previous projects.
+</p>
+
+<p>
+    A working knowledge of geographic information systems(GIS) is a plus, as CesiumJs uses many geospatial concepts.
+</p>
+
+<h3>
+    Deliverable:
+</h3>
+
+<ol>
+<li>
+    create a viewer per the specifications below.
+
+    <p>
+        The user should be able to use the keyboard keys WSAD to move forward, back, slide left, slide right, and mouse is used to “look” around(just like in a typical FPS game)
+    </p>
+    <p>
+        I need the camera to move over uneven terrain, alwayse maintaining a set distance from the ground(3D mesh).
+    </p>
+    <p>
+        The following link(Clamp to 3D Tiles) gives an example of how this is done. Notice how the truck moves over the terrain.
+    </p>
+    <p>
+        <a href="https://cesiumjs.org/Cesium/Build/Apps/Sandcastle/?src=Clamp%20to%203D%20Tiles.html&label=3D%20Tiles
+">https://cesiumjs.org/Cesium/Build/Apps/Sandcastle/?src=Clamp%20to%203D%20Tiles.html&label=3D%20Tiles
+        </a>
+    </p>
+    <p>
+        Need to adapt that example to keep the camera a set distance(1.65 meters) from the ground. This means the terrain (ground) defined by the 3D mesh moves up or down, the camera should follow it.
+    </p>
+    <p>
+        Collision detection of walls or other vertical surfaces will be added later
+    </p>
+</li>
+<li>
+    The viewer should be agnostic to the 3D model that it is given, and should allow the starting point and direction of the camera to be set for each 3D model.
+
+    <p>
+        This viewer will be used with many different 3D models, so it should allow for a way to pass some information when it is invoked that specifies the initial camera location and direction.
+    </p>
+</li>
+    <li>
+        Ongoing work refining the viewer and addition of new features.
+        <p>
+            This is an open ended contract, to further develop the viewer after it’s initial release, and add new functionality.
+        </p>
+    </li>
+</ol>
+
+<h2>
+    Github
+</h2>
+<a href="https://github.com/3DGISKing/CesiumFirstPersonCameraController">https://github.com/3DGISKing/CesiumFirstPersonCameraController</a>
+
+
+
+
+
+
+
+

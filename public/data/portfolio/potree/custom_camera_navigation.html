@@ -1,0 +1,65 @@
+<p><img src="/data/portfolio/potree/custom_camera_navigation.png" alt="">
+</p>
+
+<h2>
+    Job description
+</h2>
+
+<p>
+    Goal of this project is to write a custom navigation class for Potree 1.7.2. <br>
+
+    Depending on the distance of the camera to a surface of the point cloud,<br>
+    it should switch automatically between 3rd and 1st Person mode.<br>
+    So, if the user gets close to an object it switches into 1st person mode, if he scrolls further away it switches into 3rd person mode.<br>
+    An explanation of the functionality of each mode follows.<br>
+    For better understanding we compare the required functionality with examples of the Potree Demo and the Google Maps navigation.<br>
+</p>
+
+<p>
+<pre>
+PC & MAC
+Mouse Left
+    -3rd Person
+    Click and drag the map or point cloud over the screen along the ground plane (like Potree Earth Control Mouse Left or Google Maps Mouse Left).
+    The problem with the standard earth control of Potree is, that it doesn’t work on the map, but only on the point cloud.
+    -1st Person
+    Drag the camera along the camera plane (like Potree Orbit Control Mouse Right)
+Mouse Right OR Ctrl + Mouse Left
+    -3rd Person
+    Rotate the Camera around the point in the viewport center (like Potree Orbit Control Mouse Left or Google Maps Ctrl + Mouse Left)
+Mouse Right OR Ctrl + Mouse Left
+    -1st Person
+    Rotate the Camera fixed to the camera position (like Potree Fly Control)
+Scroll Wheel
+    -3rd Person
+    Move the camera forwards / backwards to the mouse cursor position. Adjust speed with distance (like Potree Earth Control Scroll or Google Maps Scroll)
+    -1st Person
+    Same as 3.3.1
+WASD Keys
+    -3rd Person
+    Move the camera forwards / backwards / sideways. (like Potree Fly Control)
+1st Person
+Same as 3.4.1
+
+Mobile
+1 Finger Drag
+    -3rd Person
+        Same as 3.1.1
+    -  1st Person
+        Same as 3.1.2
+Two-Finger Drag
+    -3rd Person
+    Same as 3.2.1
+Two-Finger Drag
+    -1st Person
+    Same as 3.2.2
+2 Finger Zoom
+    -3rd Person
+    Same as 3.3.1
+2 Finger Zoom
+    -1st Person
+    Same as 3.3.1
+
+</pre>
+
+</p>

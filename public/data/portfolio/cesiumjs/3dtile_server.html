@@ -1,7 +1,67 @@
+<h2>Job description</h2>
+
 <p>
-    Sometimes we need to host 3d tilesets on our server. It can be implemented by a simple node js express server.
-    But you can notice that the 3d tileset contains nested folders with thousands of small files. It is critical if you plan to download and upload a bunch of 3d tilesets.
-    One solution would be to use the sqlite format which Cesium introduces.
-    This is a simple 3d tile server based on the sqlite format of the 3d tileset. Server is based on CodeIgniter-3.1.10.
+    I need a client and server code written in PHP which will serve files stored in a SQLITE db.
+    <a href="https://www.sqlite.org/appfileformat.html"> https://www.sqlite.org/appfileformat.html</a>
+
+    <br/>
+    There are already many servers of this type written on github. Some examples:
+
+    <a href="https://github.com/search?q=mb+server"> </a>
 </p>
+The server code will reside on a EC2 instance.
+<p>
+    The client code needs to integrate with a WordPress site and use CesiumJS to display data from the SQLITE database.
+
+</p>
+<p>
+    Sample SQLITE file will be provided upon job start.
+
+</p>
+
+<p>
+    I am looking for someone with full-stack experience to develop the client and server code as well integrate the code into WordPress.
+</p>
+
+<h3>
+    Detailed description
+</h3>
+
+<p>
+    Sometimes we need to host 3d tilesets on our server instead of Cesium Ion when the data are sensitive to the restricted public access requirement.
+    It can be implemented by a simple node js express server. But you can notice that the 3d tileset contains nested folders with thousands of small files.
+    It is critical if you plan to download and upload a bunch of 3d tilesets.
+</p>
+
+<p>
+    One solution would be to use the SQLite format which Cesium team introduces.
+</p>
+
+<p>
+    This is a simple 3d tile server based on the SQLite format of the 3d tileset. This custom 3d tile server was made with CodeIgniter-3.1.10.
+</p>
+
+<p>
+    First, you have to convert the 3d tileset to SQLite format to use this server. You can refer to this
+    <a href="https://medium.com/@cesiumgis/how-to-make-sqlite-database-from-cesium-3d-tile-file-system-9e22b94cd0f8">link</a> for it.
+</p>
+<p>
+    Then copy it and paste it to the “asset” folder of the CodeIgniter.
+</p>
+
+<p>
+    If tilesets have a more deep level, then add routing rules in application/config/routes.php. We can remove index.php in tileset.json URL by using rewrite rule.
+</p>
+
+<h2>
+    Skills and expertise:
+</h2>
+ PHP, CodeIgniter.
+
+<h2>
+    Github
+</h2>
+<a href="https://github.com/3DGISKing/Cesium_3DTileServer">https://github.com/3DGISKing/Cesium_3DTileServer</a>
+
+
 

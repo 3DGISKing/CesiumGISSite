@@ -34,6 +34,10 @@ export default function BlogNav(props) {
                                 {categoryItems}
                             </ul>
                         </li>
+                        {
+                            props.currentPage ?  <li>{props.currentPage}</li> : null
+                        }
+
                     </ul>
                 </div>
             </div>
@@ -46,6 +50,7 @@ BlogNav.propTypes = {
     data: PropTypes.object.isRequired,
     selectedCategory: PropTypes.string.isRequired,
     rootUrlLabel: PropTypes.string.isRequired,
-    rootUrl: PropTypes.string.isRequired
+    rootUrl: PropTypes.string.isRequired,
+    currentPage: PropTypes.string
 };
 

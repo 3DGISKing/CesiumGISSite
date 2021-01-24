@@ -42,12 +42,13 @@ export default function PortfolioPage(props) {
             <Header/>
 
             <div className="page-content">
-                {<BlogNav
+                <BlogNav
                     rootUrl = "/portfolio"
                     rootUrlLabel="The Portfolio"
                     selectedCategory = {portfolioCategory}
                     data = {props.data}
-                />}
+                    currentPage={portfolioInfo.title}
+                />
                 <BlogContent
                     title={portfolioInfo.title}
                     date={portfolioInfo.date}

@@ -1,12 +1,80 @@
-<p>
-    This project was done by the request of Mr. Joshua Sinclair and its requirements are as follows.
-    Allows drawing of points, polyline, and polygons.
-    Allows editing of the style, i.e polyline color, polyline width, polygon outline color, polygon outline width, polygon fill color, clamped to 3d tile.
-    Users can select the already drawn feature and then change its style and also change the style during the drawing.
-    Save the drawn points, polyline and polygons to a simple MySQL database Geojson string.
-    When the application starts at first time, it must load points, polylines and polygons from the database.
-
-    Detailed drawing logic:
-
-
+<p><img src="/data/portfolio/cesiumjs/drawing_tool.png" alt="">
 </p>
+
+<h2>Job description </h2>
+
+<ol>
+    <li>
+        Allows drawing of points, polyline, and polygons.
+    </li>
+
+    <li>
+        Allows editing of the style, i.e polyline color, polyline width, polygon outline color, polygon outline width, polygon fill color, clamped to 3d tile.
+        Users can select the already drawn feature and then change its style and also change the style during the drawing.
+    </li>
+
+    <li>
+        Save the drawn points, polyline and polygons to a simple MySQL database as a GeoJSON string.
+
+    </li>
+
+    <li>
+        When the application starts at first time, it must load points, polylines and polygons from the database.
+    </li>
+
+</ol>
+
+
+<h3> Detailed drawing logic:</h3>
+<h4>Step1:</h4>
+User clicks the scene to draw the first point.
+
+<p><img src="/data/portfolio/cesiumjs/drawing_tool_1.png" alt="">
+    <em>step1</em>
+</p>
+
+<h4>Step2:</h4>
+
+After the first click, a popup like the above will appear.
+Clicking the first drawn vertex or a green tick will exit this tool and save the point as GeoJSON format to MySQL database.
+Clicking the red X icon will remove the first drawn vertex and reset the drawing.
+At this time a user would be ready to restart step1.
+
+<p><img src="/data/portfolio/cesiumjs/drawing_tool_2.png" alt="">
+    <em>step2</em>
+</p>
+
+<h4>Step3:</h4>
+After the second click, the popup same as step2 shows at vertex 2. Clicking the vertex 2 or a green tick will exit this tool and save the line as GeoJSON format to MySQL database.
+Clicking red X will remove the vertex 3 and reset the drawing and return the user to step2.
+
+<p><img src="/data/portfolio/cesiumjs/drawing_tool_3.png" alt="">
+    <em>step3</em>
+</p>
+
+<h4>Step4:</h4>
+After the third click, show popup at vertex 3.
+Clicking vertex or a green tick will exit this tool and save the polyline as GeoJSON format to MySQL db.
+Clicking red X will remove the vertex3 and reset the drawing and return the user to step3.
+
+<p><img src="/data/portfolio/cesiumjs/drawing_tool_4.png" alt="">
+    <em>step4</em>
+</p>
+
+To draw a polygon, the user clicks the first vertex and then the popup will show, so the user can complete  the drawing of the polygon or return the previous state.
+
+<p><img src="/data/portfolio/cesiumjs/drawing_tool_5.png" alt="">
+    <em>complete polygon</em>
+</p>
+
+<h2>Demo movie</h2>
+I'm sorry that I can't share it because of customer 's request.
+<h2>
+    Skills and expertise:
+</h2>
+ CesiumJS,  PHP, GeoJSON, MySQL
+
+<h2>
+    Complete Date
+</h2>
+ 8/31/2020

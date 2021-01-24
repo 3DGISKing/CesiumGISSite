@@ -13,6 +13,16 @@
       "contentLink": "/portfolio/cesiumjs/construkted"
     },
     {
+      "title": "Simple 3D Map Share",
+      "time": "2020-10-27T00:00:00+00:00",
+      "date": "November 1, 2020",
+      "categories": [
+        "CesiumJs"
+      ],
+      "headerImageLink": "/portfolio/cesiumjs/simple_3d_map_share.png",
+      "contentLink": "/portfolio/cesiumjs/simple_3d_map_share"
+    },
+    {
       "title": "Drawing Tool",
       "time": "2020-10-27T00:00:00+00:00",
       "date": "August 1, 2020",
@@ -44,14 +54,14 @@
       "contentLink": "/portfolio/cesiumjs/3dtileset_location_editor"
     },
     {
-      "title": "Point Cloud Profile",
+      "title": "Point Cloud Profiler",
       "time": "2020-10-27T00:00:00+00:00",
       "date": "June 1, 2020",
       "categories": [
         "CesiumJs"
       ],
-      "headerImageLink": "/portfolio/cesiumjs/pointcloud_profile.png",
-      "contentLink": "/portfolio/cesiumjs/pointcloud_profile"
+      "headerImageLink": "/portfolio/cesiumjs/pointcloud_profiler.png",
+      "contentLink": "/portfolio/cesiumjs/pointcloud_profiler"
     },
     {
       "title": "Airport Approach Simulation in CesiumJS",
@@ -91,8 +101,8 @@
       "categories": [
         "CesiumJs"
       ],
-      "headerImageLink": "/portfolio/cesiumjs/fps.png",
-      "contentLink": "/portfolio/cesiumjs/fps"
+      "headerImageLink": "/portfolio/cesiumjs/fpv.png",
+      "contentLink": "/portfolio/cesiumjs/fpv"
     },
     {
       "title": "Measuring Terrain Cut Volume in CesiumJS",
@@ -103,18 +113,70 @@
       ],
       "headerImageLink": "/portfolio/cesiumjs/measure_cut_volume.png",
       "contentLink": "/portfolio/cesiumjs/measure_cut_volume"
+    },
+    {
+      "title": "Find the Best Fitting Plane on a 3d Tile",
+      "time": "2020-10-27T00:00:00+00:00",
+      "date": "May 1, 2017",
+      "categories": [
+        "CesiumJs"
+      ],
+      "headerImageLink": "/portfolio/cesiumjs/find_the_best_fitting_plane_on_a_3d_tile.png",
+      "contentLink": "/portfolio/cesiumjs/find_the_best_fitting_plane_on_a_3d_tile"
+    },
+    {
+      "title": "Customize TerriaJs",
+      "time": "2020-10-27T00:00:00+00:00",
+      "date": "12 1, 2020",
+      "categories": [
+        "CesiumJs",
+        "TerriaJs",
+        "ReactJs"
+      ],
+      "headerImageLink": "/portfolio/cesiumjs/terriajs.png",
+      "contentLink": "/portfolio/cesiumjs/terriajs"
     }
   ],
   "Potree": [
     {
-      "title": "Get Close Point in Point Cloud",
+      "title": "Ground Clearance",
+      "time": "2020-10-27T00:00:00+00:00",
+      "date": "Nov 1, 2020",
+      "categories": [
+        "Potree", "ThreeJs"
+      ],
+      "headerImageLink": "/portfolio/potree/ground_clearance.png",
+      "contentLink": "/portfolio/potree/ground_clearance"
+    },
+    {
+      "title": "Create Custom Camera Navigation",
+      "time": "2020-10-27T00:00:00+00:00",
+      "date": "Nov 1, 2020",
+      "categories": [
+        "Potree", "ThreeJs"
+      ],
+      "headerImageLink": "/portfolio/potree/custom_camera_navigation.png",
+      "contentLink": "/portfolio/potree/custom_camera_navigation"
+    },
+    {
+      "title": "Update Area Measurement",
+      "time": "2020-10-27T00:00:00+00:00",
+      "date": "Nov 1, 2020",
+      "categories": [
+        "Potree", "ThreeJs"
+      ],
+      "headerImageLink": "/portfolio/potree/update_area_measurement.png",
+      "contentLink": "/portfolio/potree/update_area_measurement"
+    },
+    {
+      "title": "Get Closest Point in Point Cloud",
       "time": "2020-10-27T00:00:00+00:00",
       "date": "July 1, 2020",
       "categories": [
         "Potree", "Node.js"
       ],
-      "headerImageLink": "/portfolio/potree/shed3d.png",
-      "contentLink": "/portfolio/potree0/api"
+      "headerImageLink": "/portfolio/potree/closest_point_api.png",
+      "contentLink": "/portfolio/potree/closest_point_api"
     }
   ],
   "OpenLayers": [
@@ -123,6 +185,7 @@
       "time": "2020-10-27T00:00:00+00:00",
       "date": "December 1, 2019",
       "categories": [
+        "OpenLayers", "GeoServer", "jQuery Mobile", "Webpack"
       ],
       "headerImageLink": "/portfolio/openlayers/landuse_2d.png",
       "contentLink": "/portfolio/openlayers/landuse_2d"
@@ -132,30 +195,62 @@
       "time": "2020-10-27T00:00:00+00:00",
       "date": "January 1, 2019",
       "categories": [
+        "OpenLayers", "Bootstrap", "Highcharts", "PostgreSQL/PostGIS", "GCP", "PHP", "Python"
       ],
       "headerImageLink": "/portfolio/openlayers/fire.png",
       "contentLink": "/portfolio/openlayers/fire"
     },
     {
-      "title": "Historical Air Quality Data Analysis Too",
+      "title": "Historical Air Quality Data Analysis TooL",
       "time": "2020-10-27T00:00:00+00:00",
       "date": "May 1, 2019",
       "categories": [
+        "OpenLayers", "React", "Material UI", "Highcharts", "PHP", "PostGIS"
       ],
       "headerImageLink": "/portfolio/openlayers/air_quality.png",
       "contentLink": "/portfolio/openlayers/air_quality"
+    },
+    {
+      "title": "Highcharts Map for Comparing World Markets",
+      "time": "2020-10-27T00:00:00+00:00",
+      "date": "Nov 1, 2019",
+      "categories": [
+        "Highcharts"
+      ],
+      "headerImageLink": "/portfolio/openlayers/highcharts_world_map.png",
+      "contentLink": "/portfolio/openlayers/highcharts_world_map"
     }
   ],
   "QGIS Plugin": [
     {
-      "title": "QGIS Plugin Obliquo(Voxel WME)",
+      "title": "Text Polygon",
+      "time": "2020-10-27T00:00:00+00:00",
+      "date": "July 1, 2017",
+      "categories": [
+        "Python", "QGIS", "PyQGIS"
+      ],
+      "headerImageLink": "/portfolio/qgisPlugin/text_polygon.png",
+      "contentLink": "/portfolio/qgisPlugin/text_polygon"
+    },
+    {
+      "title": "QuickEdit",
       "time": "2020-10-27T00:00:00+00:00",
       "date": "Jun 1, 2019",
       "categories": [
-        ""
+        "Python", "QGIS", "PyQGIS"
       ],
-      "headerImageLink": "/portfolio/qgisPlugin/obliquo1.0.png",
-      "contentLink": "/portfolio/qgisPlugin/obliquo1.0"
+      "headerImageLink": "/portfolio/qgisPlugin/quickedit.png",
+      "contentLink": "/portfolio/qgisPlugin/quickedit"
+    },
+    {
+      "title": "Obliquo(Voxel WME)",
+      "time": "2020-10-27T00:00:00+00:00",
+      "date": "Jun 1, 2019",
+      "categories": [
+        "Python", "QGIS", "PyQGIS", "OpenLayers"
+      ],
+      "headerImageLink": "/portfolio/qgisPlugin/obliquo1.png",
+      "contentLink": "/portfolio/qgisPlugin/obliquo1"
     }
   ],
   "C++,Qt": [

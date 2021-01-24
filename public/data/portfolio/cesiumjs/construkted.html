@@ -1,22 +1,70 @@
-<p><img src="/data/portfolio/cesiumjs/construkted1.png" alt="Sample Title Slide">
-    <em>An example title slide created with the new fullscreen feature. We didn’t actually create an entire Cesium story about porpoises, but maybe one of you will!</em></p>
-
 <p>
-    <a href="https://construkted.com/"> Construkted Reality</a>
-     is the platform to share massive photogrammetry models and large point clouds with ease.
+    <a href="https://construkted.com/">Construkted Reality</a>
+    is the platform to share massive photogrammetry models and large point clouds with ease.
+</p>
+
+<p><img src="/data/portfolio/cesiumjs/construkted1.png" alt="Sample point cloud data in Construkted Reality">
+    <em>Sample point cloud data in Construkted Reality</em>
 </p>
 
 <p>
-    I had worked for two years with <a href="https://www.linkedin.com/in/adrianonsen/">Mr. Adrian Onsen </a>  to develop Construkted Reality.
+    Users can view, share, and store their billion polygon 3D models or multi-billion point clouds
+    by assets created with a very simple upload operation.
+</p>
+
+<p><img src="/data/portfolio/cesiumjs/construkted_upload1.png" alt="Uploading interface in Construkted Reality">
+    <em>Uploading interface in Construkted Reality</em>
 </p>
 
 <p>
-    I was responsible for the backend to prepare the asset from the uploaded raw data and also the frontend related to CesiumJS.
-
-    The backend was developed with Node.js and it receives the request of users and then converts the uploaded raw photogrammetry 3d model or Lidar data to CesiumJS ‘s 3D Tile.
-    After preparing the asset, the backend uploads all tiled data to the S3 bucket.
-
-    In order to freely wander around the asset, I had implemented the FPV(First Person View) function.
-    Also I had developed asset measurement and positioning functions.
+    I had worked for two years with <a href="https://www.linkedin.com/in/adrianonsen/">Mr. Adrian Onsen </a> to develop Construkted Reality since 2018.
 </p>
+
+<p>
+    I was responsible not only for the backend to prepare the asset from the uploaded raw data but also for the frontend related to CesiumJs.
+</p>
+
+<p>
+    The backend provides REST API made from Node.js and it basically receives the request of users and then converts the uploaded raw photogrammetry 3d model or Lidar data to CesiumJs ‘s 3D tile format.
+</p>
+
+<p>
+    It efficiently manages a number of tiling tasks considering the power of the server.
+    Besides a basic endpoint for processing the tiling request the backend also exposes several endpoints for managing concurrently executing tiling tasks and 3d assets.
+</p>
+
+<p>
+    For the 3d data management Construkted Reality uses a WordPress theme called gowatch which is originally designed for sharing videos and
+    I had successfully customized this theme for our purpose.
+    I have also made several WordPress endpoints to communicate with backend API.
+
+</p>
+
+<p><img src="/data/portfolio/cesiumjs/construkted_geo_location.png" alt="Geo location properties of an asset">
+    <em>Geo location properties of an asset</em>
+</p>
+
+<p>
+    For the frontend part I implemented FPV(First Person View), asset geo-positioning, automatic FPS control, measuring, and immersive XR, and AJAX. <br/>
+</p>
+
+<p><img src="/data/portfolio/cesiumjs/construkted_fpv1.png" alt="First Person View">
+    <em>First Person View</em>
+</p>
+
+<p>
+    See samples of Construkted Reality.<br/>
+    <a href="https://construkted.com/asset/arkcnfuk9fw/">Mexico City Metropolitan Cathedral</a> ,
+    <a href="https://construkted.com/asset/qpnur8sroi/">Thomas Jefferson Memorial 02</a> <br/>
+</p>
+
+<p>
+    It's been really my pleasure to work with a cool and technical man such as Adrian.
+</p>
+
+
+<h2>Skills and expertise:</h2>
+CesiumJS,  Node.js, WordPress, Python
+
+
 
