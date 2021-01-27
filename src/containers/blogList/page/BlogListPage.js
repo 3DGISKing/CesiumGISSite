@@ -14,6 +14,15 @@ const dataUrl = serverUrl + dataPath;
 export default function BlogListPage (props) {
     const totalData = props.data;
 
+    if(!totalData[props.category]){
+        return (
+            <Fragment>
+                <NotFound/>
+            </Fragment>
+        )
+    }
+
+
     let data = [...totalData[props.category]];
 
     if(!data) {

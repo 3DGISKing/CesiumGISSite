@@ -1,0 +1,79 @@
+<iframe width="880" height="660"
+        src="https://www.youtube.com/embed/D8zbxHxAmVw">
+</iframe>
+
+<h2>Job description </h2>
+
+<p>
+    We need a program that converts three-dimensional coordinate differences (derived from a csv coordinate table)
+    to suitably scaled line features in a shape file (common format used in Geographc Information Systems (GIS). <br>
+    The work will require knowledge about the structure and format of shape files. We prefer a stand-alone program that builds shape files from scratch. Alternatively, a function embedded in the program Global Mapper from Blue Marble Graphics may be considered.
+</p>
+
+
+<h3>Detailed</h3>
+<p>
+    We often have to test the accuracy of our UAV maps by using check points (in addition to Ground Control Points).
+    The checkpoints are pre-marked in the mapping area and surveyed accurately by means of terrestrial methods such as GPS or Total Station.
+    The coordinates (X,Y,H) determined by means of these well-established methods are assumed to be true.<br>
+    To check the accuracy of the UAV-derived Ortho Photo and DSM, we observe the coordinates (x,y,h) of the check points in GIS and then determine the differences
+    dx,dy,dh where dx=x-X, dy=y-Y and dh=h-H. We refer to (dx,dy,dh) as the “error vector”.<br>
+    The coordinate comparison allows us to make the usual statistical analyses such as means, standard deviations and RMSEs.
+    However, without a visualization of the orientation of the error vectors, it is difficult to quickly assess whether there is a bias in
+    the orientation and magnitude of the errors or whether the errors have regional correlation.<br>
+    Since the errors are generally too small to be depicted on a map showing the entire mapping area, it is necessary to show the differences at a much larger scale than the mapping scale.
+    A program is thus needed to produce a GIS-compatible file to appropriately display the differences.<br>
+    A convenient method of 2D visualization is to show the horizontal component of the error vector by means of
+    a magnified arrow pointing from the true position in the direction of the observed position as shown in the figure below.<br>
+    The vertical component can easily be illustrated by means of either arrows pointing north for positive values and south for negative values or a suitable color based elevation symbology.
+</p>
+
+<p><img src="/data/portfolio/c++,qt/shapefile_01.png" alt="">
+</p>
+
+<p>Here is an example of the errors scaled by a factor of 1000 overlaid on an orthophoto:</p>
+<p><img src="/data/portfolio/c++,qt/shapefile_02.png" alt="">
+</p>
+
+<h4>Program design:</h4>
+
+<p>
+    <ol>
+    <li>
+        Prompt the user to select the input file
+        The input file will be in csv format with the following columns: Name, X, Y, H, x, y, h – note the first row will be column names not necessarily conforming to this example. The sequence will however always be as per the described theme – i.e. true values first and then observed values, x being the easting, y the northing and h the vertical components.
+
+    <img src="/data/portfolio/c++,qt/shapefile_03.png" alt="">
+    </li>
+    <li>
+        Present the user with a projection catalogue (http://www.epsg.org/) from which to choose a spatial reference frame and projection system.
+    </li>
+    <li>For each point in the input file calculate dx,dy,dh as well as the horizontal length ds=sqrt(dx²+dy²). </li>
+    <li>Calculate and display the average, max, min, range and standard deviation of dx, dy, dh and ds.
+        Note range = max - min
+    </li>
+
+    <li>Ask the user for a magnification factor s (i.e. scale) to be applied to the error vectors.</li>
+    <li>Compute terminals for the error vectors as follows:
+        e = X+s(dx), n=Y+s(dy), z=H+s(dh)
+    </li>
+    <li>Using the projection entered in 2 above, generate a 3D shape file set containing the line features of the errors where X,Y,H are the origins of the line features and e,n,z are the terminals of the line features. The dbf file (as part of the shape file set) must contain the following attributes for each error vector: POINT, X, Y, H, dx, dy, dh </li>
+    <li>Save the shape file set under the same name in a sub-folder and in the same folder as the input file.</li>
+    <li>Note that the attached sample shape file is only 2D and that it was created with an error magnification factor of 1000. We require however a 3D shape file.</li>
+    <li>We prefer a stand-alone program – i.e. one that builds the shape file from scratch without the use of any specific GIS platform. Alternatively, we prefer a function working in Global Mapper. </li>
+
+    </ol>
+</p>
+
+<h2>
+    Skills and expertise
+</h2>
+
+C++, Qt, QGIS
+<h2>
+    Github
+</h2>
+
+<a href="https://github.com/3DGISKing/QGISMaking3DShapefile">https://github.com/3DGISKing/QGISMaking3DShapefile</a>
+
+

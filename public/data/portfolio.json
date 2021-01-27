@@ -3,11 +3,9 @@
     {
       "title": "Construkted Reality",
       "time": "2020-10-27T00:00:00+00:00",
-      "date": "November 1, 2020",
+      "date": "December 1, 2020",
       "categories": [
-        "CesiumJs",
-        "WordPress",
-        "Node.js"
+        "CesiumJs", "WordPress","Node.js", "Python"
       ],
       "headerImageLink": "/portfolio/cesiumjs/construkted.png",
       "contentLink": "/portfolio/cesiumjs/construkted"
@@ -137,7 +135,7 @@
       "contentLink": "/portfolio/cesiumjs/terriajs"
     }
   ],
-  "Potree": [
+  "potree": [
     {
       "title": "Ground Clearance",
       "time": "2020-10-27T00:00:00+00:00",
@@ -259,47 +257,130 @@
       "time": "2020-10-27T00:00:00+00:00",
       "date": "March 1, 2017",
       "categories": [
-        ""
+        "C++", "Qt", "OpenGL", "Irrichit"
       ],
       "headerImageLink": "/portfolio/c++,qt/qglobe.png",
       "contentLink": "/portfolio/c++,qt/qglobe"
+    },
+    {
+      "title": "Make Error Shapefile",
+      "time": "2020-10-27T00:00:00+00:00",
+      "date": "April 21, 2017",
+      "categories": [
+        "C++", "Qt", "QGIS", "GIS"
+      ],
+      "headerImageLink": "/portfolio/c++,qt/shapefile.png",
+      "contentLink": "/portfolio/c++,qt/shapefile"
+    },
+    {
+      "title": "Qt App Developer Needed To Modify NextCloud/Owncloud Uploader",
+      "time": "2020-10-27T00:00:00+00:00",
+      "date": "May 17, 2015",
+      "categories": [
+        "C++", "Qt", "dicom", "NextCloud"
+      ],
+      "headerImageLink": "/portfolio/c++,qt/nextcloud.png",
+      "contentLink": "/portfolio/c++,qt/nextcloud"
+    },
+    {
+      "title": "Download Surgeon",
+      "time": "2020-10-27T00:00:00+00:00",
+      "date": "August 1, 2019",
+      "categories": [
+        "C++", "Qt", "QML", "ffmpeg"
+      ],
+      "headerImageLink": "/portfolio/c++,qt/download_surgeon.png",
+      "contentLink": "/portfolio/c++,qt/download_surgeon"
+    },
+    {
+      "title": "AutoTonic Modal MIDI Transposer",
+      "time": "2020-10-27T00:00:00+00:00",
+      "date": "August 1, 2019",
+      "categories": [
+        "C++", "Qt", "QML", "ffmpeg"
+      ],
+      "headerImageLink": "/portfolio/c++,qt/autotonic.png",
+      "contentLink": "/portfolio/c++,qt/autotonic"
     }
   ],
   "ThreeJs": [
     {
       "title": "Shed Designer",
       "time": "2020-10-27T00:00:00+00:00",
-      "date": "October 1, 2020",
+      "date": "Dec 1, 2019",
       "categories": [
-
+        "ThreeJs"
       ],
       "headerImageLink": "/portfolio/threejs/shed3d.png",
       "contentLink": "/portfolio/threejs/shed3d"
+    },
+    {
+      "title": "Building Animation",
+      "time": "2020-10-27T00:00:00+00:00",
+      "date": "July 14, 2020",
+      "categories": [
+        "ThreeJs"
+      ],
+      "headerImageLink": "/portfolio/threejs/building_animation.png",
+      "contentLink": "/portfolio/threejs/building_animation"
     },
     {
       "title": "Rendering Underground Drill Hole Data in Three.js",
       "time": "2020-10-27T00:00:00+00:00",
       "date": "February 1, 2020",
       "categories": [
-
+        "ThreeJs"
       ],
       "headerImageLink": "/portfolio/threejs/underground.png",
       "contentLink": "/portfolio/threejs/underground"
+    },
+    {
+      "title": "Integrating Three.js Model Loader with Vue",
+      "time": "2020-10-27T00:00:00+00:00",
+      "date": "February 1, 2020",
+      "categories": [
+        "ThreeJs", "Vue"
+      ],
+      "headerImageLink": "/portfolio/threejs/model_loader_vue.png",
+      "contentLink": "/portfolio/threejs/model_loader_vue"
+    },
+    {
+      "title": "Gold Ring with Dynamic Text",
+      "time": "2020-10-27T00:00:00+00:00",
+      "date": "Jun 1, 2018",
+      "categories": [
+        "ThreeJs"
+      ],
+      "headerImageLink": "/portfolio/threejs/gold_ring.png",
+      "contentLink": "/portfolio/threejs/gold_ring"
     }
   ],
+  ".NET": [
+    {
+      "title": "C# library to read Country and Region Geo Data from GeoPackage (gpkg) format",
+      "time": "2020-10-27T00:00:00+00:00",
+      "date": "April 21, 2019",
+      "categories": [
+        "C#", ".NET", "GIS"
+      ],
+      "headerImageLink": "/portfolio/dotnet/geoapi.png",
+      "contentLink": "/portfolio/dotnet/geoapi"
+    }
+  ],
+  "Python": [],
   "Node.js": [
 
   ],
   "WordPress": [
     {
-      "title": "Rendering Underground Drill Hole Data in Three.js",
+      "title": "Developer needed for WordPress Bug",
       "time": "2020-10-27T00:00:00+00:00",
-      "date": "October 1, 2020",
+      "date": "May 3, 2020",
       "categories": [
-
+      "WordPress", "React", "PWA"
       ],
-      "headerImageLink": "/portfolio/threejs/shed3d.png",
-      "contentLink": "/portfolio/threejs/shed3d"
+      "headerImageLink": "/portfolio/wordpress/campus.png",
+      "contentLink": "/portfolio/wordpress/campus"
     }
   ]
 }

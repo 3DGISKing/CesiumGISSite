@@ -1,0 +1,94 @@
+<p><img src="/data/portfolio/threejs/shed3d.png" alt=""></p>
+<h2>Overview </h2>
+
+<p>
+    3D Building Designer, the product of the
+    <a href="https://www.3dfish.net/">https://www.3dfish.net/</a>
+    3D fish lets customers visualize the different types of building they would like to purchase,
+    giving them opportunity to select the style, the size, the siding, the colors and,
+    the placing of the doors, windows, and other accessories exactly where they want them to be, both inside and outside of the building.
+    For now it supports Shed, Horse Barn, Carport types.<br>
+    In this project, I worked on the following several issues.
+</p>
+
+<h3>
+    Create Element Viewer / Editor utility
+</h3>
+<p>“This Should show the x, y, z coordinates and select and turn the view of each object that is part of the element on or off, also should allow for editing of each object's parameters.”
+</p>
+
+<h3>Use BufferGeometry everywhere
+</h3>
+<p>
+    “Geometry should be considered legacy and BufferGeometry should be used exclusively.”
+</p>
+
+
+<h3>Show attachable elements on the right click menu</h3>
+<p>
+    “The right-click element menu needs to show any available attached elements and let them be selected and added to the element.”
+</p>
+
+<h3>Create an edit selector for selected element</h3>
+<p>
+    “Create an edit icon – a circle with a pencil – that a user can click to access the right-click menu”
+</p>
+
+<h3>Separate shutters and trim from windows
+</h3>
+<p>
+    “Windows need to have a left and right connect point that would be centered vertically on the window.
+    Also, should have a top and bottom connect point for additional options such as flower boxes.
+    Trim elements would be able to be added to a window and provide an additional set of connect points to add shutters in addition to trim.
+    They should be a connected element similar to hinges on doors
+    Shutters should have a right and left connect point for universal shutters and a left or right connect point for left and right shutters.”
+</p>
+
+<h3>Use the same lighting setup for mobile and desktop</h3>
+<p>
+    “The light rig is more complex than it needs to be. With a bit of tweaking, you should be able to get better results with only lights, which will give a good performance improvement and simplify your code.
+    Instead of creating an extra light for shadows on desktop only, use the same lights and switch off/switch to lower quality shadows on mobile if you need to. Given the complexity of your scene, I suspect that with some optimization you will find that shadows will work fine on mobile.”
+</p>
+
+<h3>Use a real environment map
+</h3>
+<p>
+    “This will go a long way to improving the realism and lighting quality in your scenes with a minimal performance impact.
+    You can see that yours is much lower quality. Also, it appears low resolution and stretched, even though it is the same or higher resolution than the three.js examples.”
+</p>
+
+<h3></h3>
+<p>
+
+</p>
+
+<h3>Improve glass material
+</h3>
+<p>
+    “We need to create accurate reflection in the windows.”
+</p>
+
+<h3></h3>
+<p>
+
+</p>
+
+<h3>Camera class is doing too much
+</h3>
+<p>
+    “The only tasks I would expect a Camera class to perform are things related to camera creation and state.”
+
+</p>
+
+<h2>
+    Skills and expertise
+</h2>
+
+Three.js
+
+<h2>
+    Live example
+</h2>
+
+<a href="https://sddemo.3dfish.net/?debugcode=1#zipCodeFormDiv">https://sddemo.3dfish.net/?debugcode=1#zipCodeFormDiv</a>
+

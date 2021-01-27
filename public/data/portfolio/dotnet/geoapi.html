@@ -1,0 +1,71 @@
+<h2>Job description </h2>
+
+<p>
+    Data is needed for generating test data of random users at locations in different countries and regions.<br>
+    We have found free data here https://gadm.org/download_world.html in gpkg format<br>
+    We need a C# .net standard library to read the data.<br>
+    The library should have nuget SQLite and SpatialLite<br>
+    The library should handle data in three formats, Envelope, MultiPolygon, Polyline.<br>
+</p>
+
+<p>
+    <h3>Part 1:</h3> Create C# methods with the following signatures.<br><br>
+    <b> 1a.</b> Envelope ReadGeoDataByCountryKey(iso3166_1CountryCode, Data.Envelope, lite) -- returns full country data<br>
+    <b> 1b.</b> MultiPolygon ReadGeoDataByCountryKey(iso3166_1CountryCode, Data.MultiPolygon, lite) -- returns full country data<br>
+    <b> 1c.</b> Polyline ReadGeoDataByCountryKey(iso3166_1CountryCode, Data.Polyline, lite) -- returns full country data<br><br>
+
+    <b> 2.</b>  ReadGeoCenterPointByCountryKey(iso3166_1CountryCode) -- returns the center point of country<br>
+    <b> 3a.</b> Envelope ReadGeoDataByRegionKey(iso3166_2RegionCode, Data.Envelope, lite) -- returns full region data<br>
+    <b> 3a.</b> MultiPolygon ReadGeoDataByRegionKey(iso3166_2RegionCode, Data.MultiPolygon, lite) -- returns full region data<br>
+    <b> 4.</b>  ReadGeoCenterPointByCountryKey(iso3166_2RegionCode) -- returns the center point by region key<br>
+    If lite == false, return the full data<br>
+    If lite == true, return only 500 data points that fit the country or region no matter how big<br>
+</p>
+
+<br>
+
+<p>
+    <h3>Part 2:</h3>Country boundaries will be validated by testing randomly via GoogleMaps or via GPS MotionX mobile app.
+    <br><br>
+
+    <a href="https://support.google.com/maps/answer/18539?co=GENIE.Platform%3DDesktop&hl=en">https://support.google.com/maps/answer/18539?co=GENIE.Platform%3DDesktop&hl=en </a> <br>
+    <a href="https://gps.motionx.com/less">https://gps.motionx.com/less </a> <br>
+
+    These are examples for what we are looking for. Simple arrays of long-lat data.
+</p>
+
+<p>
+    Rivers and seas should be represented in the Multipolygon and polyline data.<br>
+    Some examples to get data for Nigeria:<br><br>
+
+    <ol>
+    <li>
+        Simple Geo Envelope (2.70938205700003 4.30875110600005,2.70938205700003 13.8841400150001,14.6760044100001 13.8841400150001,14.6760044100001 4.30875110600005,2.70938205700003 4.30875110600005)
+    </li>
+    <li>
+        Simple MultiPolygon (5.54514694200003 13.8841400150001,6.92800808000004 12.9898529050001,9.65023899100004 12.803606987,13.634547234 13.7106885910001,14.6760044100001 12.166168213,11.5210742950001 6.61761665300003,10.1533517840001 7.03845167200006,8.27791690800007 4.53458309200005,5.98291587800003 4.30875110600005,5.52958488500008 5.81652879700005,2.70938205700003 6.37569379800004,3.64255595200007 12.520148277,5.54514694200003 13.8841400150001)
+    </li>
+    <li>
+        Simple Polyline (5.54514694200003 13.8841400150001,6.92800808000004 12.9898529050001,9.65023899100004 12.803606987,13.634547234 13.7106885910001,14.6760044100001 12.166168213,11.5210742950001 6.61761665300003,10.1533517840001 7.03845167200006,8.27791690800007 4.53458309200005,5.98291587800003 4.30875110600005,5.52958488500008 5.81652879700005,2.70938205700003 6.37569379800004,3.64255595200007 12.520148277,5.54514694200003 13.8841400150001)
+
+    </li>
+
+    </ol>
+
+    <b>var liteNigeriaData = ReadGeoDataByCountryKey("NG", Data.Envelope, true);</b><br>
+    <b>var fullNigeriaData = ReadGeoDataByCountryKey("NG", Data.Multipolygon, false);</b><br>
+</p>
+
+<h2>
+    Skills and expertise
+</h2>
+
+C#, .NET, GIS
+
+<h2>
+    Github
+</h2>
+
+<a href="https://github.com/3DGISKing/CSharpGeoAPI">https://github.com/3DGISKing/CSharpGeoAPI</a>
+
+
