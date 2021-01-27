@@ -3,9 +3,9 @@
 https://cesiumgis.com/
  
 
-##build
+## how to build
 yarn build 
 
-##how to update site
+## how to update site
 delete following folders and replace     
 css, data, static, third-party
