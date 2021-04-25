@@ -2,8 +2,7 @@
 
 https://cesiumgis.com/
  
-
-## build
+## how to build
 yarn build 
 
 ## how to update site
