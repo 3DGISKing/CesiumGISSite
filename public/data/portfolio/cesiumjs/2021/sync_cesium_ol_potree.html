@@ -1,0 +1,22 @@
+<iframe width="880" height="660"
+        src="https://www.youtube.com/embed/nLqxL9emE9o">
+</iframe>
+
+<br/>
+<br/>
+<p>
+    We want to have a viewer switch allowing us to have a single window with a map in OpenLayers  and have 3 buttons: one for
+    hanging to globe view (Cesium JS), another one for changing to Potree view and another one for returning to the 2D map.
+    We want all the three views to be synchronized in terms of zoom. I mean: assuming we always start with a 2D map,
+    when we click on the "3D" (globe) button, we want to see it centered in the same point, with the same bearing and the same zoom level.<br/>
+    The same when we go to the point cloud (potree) view from the 2D map.
+    We would like to include  the reverse switch from 3D environments to 2D in the project.<br/>
+    The desired behavior would be using the center point of the 3D view as the reference point in which the 2D map should
+    be centered and use the height of the camera (from the terrain) to calculate the zoom level in the 2D map.<br>
+
+    We also want to include in the project the switch between Cesium and Potree views maintaining the same camera position.<br/>
+    So <br/>
+    App will start with a 2D OpenLayers map.
+    App will have 3 buttons: one for switching from 2D to Cesium js 3D view one for switching from 2D to Potree 3D view one for returning from 3D(Cesium or Potree) to the 2D view.
+
+</p>

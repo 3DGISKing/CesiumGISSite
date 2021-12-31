@@ -48,7 +48,13 @@ export default function CesiumGISRouter() {
                 }
             </Route>
 
-            <Route exact path={"/portfolio/:category/:name"}>
+            <Route exact path={"/portfolio/:category/:portfolio_identifier"}>
+                {
+                    portfolioData === null ? null : <PortfolioPage data= {portfolioData}/>
+                }
+            </Route>
+
+            <Route exact path={"/portfolio/:category/:year/:portfolio_identifier"}>
                 {
                     portfolioData === null ? null : <PortfolioPage data= {portfolioData}/>
                 }

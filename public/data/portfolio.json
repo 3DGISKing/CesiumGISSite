@@ -3,12 +3,104 @@
     {
       "title": "Construkted Reality",
       "time": "2020-10-27T00:00:00+00:00",
-      "date": "December 1, 2020",
+      "date": "December 31, 2021",
       "categories": [
         "CesiumJs", "WordPress","Node.js", "Python"
       ],
       "headerImageLink": "/portfolio/cesiumjs/construkted.png",
       "contentLink": "/portfolio/cesiumjs/construkted"
+    },
+    {
+      "title": "Project video streams on the 3dtileset",
+      "time": "2020-12-07T00:00:00+00:00",
+      "date": "December 7, 2021",
+      "categories": [
+        "CesiumJs"
+      ],
+      "headerImageLink": "/portfolio/cesiumjs/2021/video_projection.png",
+      "contentLink": "/portfolio/cesiumjs/2021/video_projection"
+    },
+    {
+      "title": "Time series pointcloud",
+      "time": "2020-12-07T00:00:00+00:00",
+      "date": "Feb 5, 2021",
+      "categories": [
+        "CesiumJs"
+      ],
+      "headerImageLink": "/portfolio/cesiumjs/2021/timeseries_pointcloud.png",
+      "contentLink": "/portfolio/cesiumjs/2021/timeseries_pointcloud"
+    },
+    {
+      "title": "Sync view between CesiumJs, OpenLayers and Potree",
+      "time": "2021-10-27T00:00:00+00:00",
+      "date": "March 24, 2021",
+      "categories": [
+        "CesiumJs", "OpenLayers", "potree"
+      ],
+      "headerImageLink": "/portfolio/cesiumjs/2021/sync_cesium_ol_potree.png",
+      "contentLink": "/portfolio/cesiumjs/2021/sync_cesium_ol_potree"
+    },
+    {
+      "title": "Sync view between CesiumJs and Aerial Images",
+      "time": "2021-10-27T00:00:00+00:00",
+      "date": "March 25, 2021",
+      "categories": [
+        "CesiumJs", "OpenLayers"
+      ],
+      "headerImageLink": "/portfolio/cesiumjs/2021/sync_cesium_oblique.png",
+      "contentLink": "/portfolio/cesiumjs/2021/sync_cesium_oblique"
+    },
+    {
+      "title": "Sync view between CesiumJs and Panorama",
+      "time": "2021-10-27T00:00:00+00:00",
+      "date": "April 19, 2021",
+      "categories": [
+        "CesiumJs"
+      ],
+      "headerImageLink": "/portfolio/cesiumjs/2021/sync_cesium_panorama.png",
+      "contentLink": "/portfolio/cesiumjs/2021/sync_cesium_panorama"
+    },
+    {
+      "title": "Twin Viewer",
+      "time": "2021-10-27T00:00:00+00:00",
+      "date": "May , 2021",
+      "categories": [
+        "CesiumJs"
+      ],
+      "headerImageLink": "/portfolio/cesiumjs/2021/twin_viewer.png",
+      "contentLink": "/portfolio/cesiumjs/2021/twin_viewer"
+    },
+    {
+      "title": "Point Cloud Profiler",
+      "time": "2020-10-27T00:00:00+00:00",
+      "date": "June 1, 2020",
+      "categories": [
+        "CesiumJs"
+      ],
+      "headerImageLink": "/portfolio/cesiumjs/pointcloud_profiler.png",
+      "contentLink": "/portfolio/cesiumjs/pointcloud_profiler"
+    },
+    {
+      "title": "Customize TerriaJs",
+      "time": "2020-10-27T00:00:00+00:00",
+      "date": "12 1, 2020",
+      "categories": [
+        "CesiumJs",
+        "TerriaJs",
+        "ReactJs"
+      ],
+      "headerImageLink": "/portfolio/cesiumjs/terriajs.png",
+      "contentLink": "/portfolio/cesiumjs/terriajs"
+    },
+    {
+      "title": "Integrating CesiumJs 3D Map with WooCommerce page",
+      "time": "2021-10-27T00:00:00+00:00",
+      "date": "July 15 , 2020",
+      "categories": [
+        "CesiumJs", "WordPress"
+      ],
+      "headerImageLink": "/portfolio/cesiumjs/integrating_cesium_woocommerce.png",
+      "contentLink": "/portfolio/cesiumjs/integrating_cesium_woocommerce"
     },
     {
       "title": "Simple 3D Map Share",
@@ -51,16 +143,7 @@
       "headerImageLink": "/portfolio/cesiumjs/3dtileset_location_editor.png",
       "contentLink": "/portfolio/cesiumjs/3dtileset_location_editor"
     },
-    {
-      "title": "Point Cloud Profiler",
-      "time": "2020-10-27T00:00:00+00:00",
-      "date": "June 1, 2020",
-      "categories": [
-        "CesiumJs"
-      ],
-      "headerImageLink": "/portfolio/cesiumjs/pointcloud_profiler.png",
-      "contentLink": "/portfolio/cesiumjs/pointcloud_profiler"
-    },
+
     {
       "title": "Airport Approach Simulation in CesiumJS",
       "time": "2020-10-27T00:00:00+00:00",
@@ -121,21 +204,30 @@
       ],
       "headerImageLink": "/portfolio/cesiumjs/find_the_best_fitting_plane_on_a_3d_tile.png",
       "contentLink": "/portfolio/cesiumjs/find_the_best_fitting_plane_on_a_3d_tile"
-    },
-    {
-      "title": "Customize TerriaJs",
-      "time": "2020-10-27T00:00:00+00:00",
-      "date": "12 1, 2020",
-      "categories": [
-        "CesiumJs",
-        "TerriaJs",
-        "ReactJs"
-      ],
-      "headerImageLink": "/portfolio/cesiumjs/terriajs.png",
-      "contentLink": "/portfolio/cesiumjs/terriajs"
     }
+
   ],
   "potree": [
+    {
+      "title": "Reality viewer",
+      "time": "2020-10-27T00:00:00+00:00",
+      "date": "May 31, 2021",
+      "categories": [
+        "Potree", "ThreeJs"
+      ],
+      "headerImageLink": "/portfolio/potree/2021/reality_viewer.png",
+      "contentLink": "/portfolio/potree/2021/reality_viewer"
+    },
+    {
+      "title": "Overlay point cloud with panorama image",
+      "time": "2020-10-27T00:00:00+00:00",
+      "date": "March 24, 2021",
+      "categories": [
+        "Potree", "ThreeJs"
+      ],
+      "headerImageLink": "/portfolio/potree/2021/overlay_pointcloud_panorama.png",
+      "contentLink": "/portfolio/potree/2021/overlay_pointcloud_panorama"
+    },
     {
       "title": "Ground Clearance",
       "time": "2020-10-27T00:00:00+00:00",
@@ -149,7 +241,7 @@
     {
       "title": "Create Custom Camera Navigation",
       "time": "2020-10-27T00:00:00+00:00",
-      "date": "Nov 1, 2020",
+      "date": "Nov 2, 2020",
       "categories": [
         "Potree", "ThreeJs"
       ],
@@ -251,13 +343,35 @@
       "contentLink": "/portfolio/qgisPlugin/obliquo1"
     }
   ],
+  "GIS,Remote Sensing,Photogrammetry": [
+    {
+      "title": "Calculating footprints of oblique aerial images",
+      "time": "2020-10-27T00:00:00+00:00",
+      "date": "March 24, 2021",
+      "categories": [
+        "Python", "Photogrammetry", "anaconda", "geopanda"
+      ],
+      "headerImageLink": "/portfolio/gis_photogrammetry_remote_sensing/2021/footprint_oblique.png",
+      "contentLink": "/portfolio/gis_photogrammetry_remote_sensing/2021/footprint_oblique"
+    }
+  ],
   "C++,Qt": [
+    {
+      "title": "Qt5Dcm",
+      "time": "2020-10-27T00:00:00+00:00",
+      "date": "March, 2019",
+      "categories": [
+        "C++", "Qt"
+      ],
+      "headerImageLink": "/portfolio/c++,qt/qt5dcm.png",
+      "contentLink": "/portfolio/c++,qt/qt5dcm"
+    },
     {
       "title": "QGlobe",
       "time": "2020-10-27T00:00:00+00:00",
       "date": "March 1, 2017",
       "categories": [
-        "C++", "Qt", "OpenGL", "Irrichit"
+        "C++", "Qt", "OpenGL", "Irrichit", "GIS,Remote Sensing,Photogrammetry"
       ],
       "headerImageLink": "/portfolio/c++,qt/qglobe.png",
       "contentLink": "/portfolio/c++,qt/qglobe"
@@ -267,7 +381,7 @@
       "time": "2020-10-27T00:00:00+00:00",
       "date": "April 21, 2017",
       "categories": [
-        "C++", "Qt", "QGIS", "GIS"
+        "C++", "Qt", "QGIS", "GIS,Remote Sensing,Photogrammetry"
       ],
       "headerImageLink": "/portfolio/c++,qt/shapefile.png",
       "contentLink": "/portfolio/c++,qt/shapefile"
@@ -304,6 +418,36 @@
     }
   ],
   "ThreeJs": [
+    {
+      "title": "A Galaxy of books",
+      "time": "2020-10-27T00:00:00+00:00",
+      "date": "Jan 27, 2021",
+      "categories": [
+        "ThreeJs"
+      ],
+      "headerImageLink": "/portfolio/threejs/2021/galaxy_of_books.png",
+      "contentLink": "/portfolio/threejs/2021/galaxy_of_books"
+    },
+    {
+      "title": "Ball Operation",
+      "time": "2020-10-27T00:00:00+00:00",
+      "date": "March 20, 2021",
+      "categories": [
+        "ThreeJs"
+      ],
+      "headerImageLink": "/portfolio/threejs/2021/ball_operation.png",
+      "contentLink": "/portfolio/threejs/2021/ball_operation"
+    },
+    {
+      "title": "Dice Rendering",
+      "time": "2020-10-27T00:00:00+00:00",
+      "date": "Dec 21, 2020",
+      "categories": [
+        "ThreeJs"
+      ],
+      "headerImageLink": "/portfolio/threejs/2020/dice.png",
+      "contentLink": "/portfolio/threejs/2020/dice"
+    },
     {
       "title": "Shed Designer",
       "time": "2020-10-27T00:00:00+00:00",
@@ -361,7 +505,7 @@
       "time": "2020-10-27T00:00:00+00:00",
       "date": "April 21, 2019",
       "categories": [
-        "C#", ".NET", "GIS"
+        "C#", ".NET", "GIS,Remote Sensing,Photogrammetry"
       ],
       "headerImageLink": "/portfolio/dotnet/geoapi.png",
       "contentLink": "/portfolio/dotnet/geoapi"
