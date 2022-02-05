@@ -2,7 +2,7 @@ let serverUrl;
 
 if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
     // dev code
-    serverUrl = "http://localhost:3000";
+    serverUrl = `http://localhost:${window.location.port}`;
 } else {
     serverUrl = "https://cesiumgis.com";
 }
