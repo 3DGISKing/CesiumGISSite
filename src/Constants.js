@@ -4,7 +4,7 @@ if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
     // dev code
     serverUrl = `http://localhost:${window.location.port}`;
 } else {
-    serverUrl = "https://cesiumgis.com";
+    serverUrl = "https://coolgis.org";
 }
 
 const dataPath = "/data";

@@ -5,11 +5,11 @@ export default function HomeContent() {
         <div className="page-section">
             <div className="container">
                 <div className="narrow-heading">
-                    <h1 className="text-center">Welcome to the CesiumGIS</h1>
+                    <h1 className="text-center">Welcome to the CoolGIS</h1>
                 </div>
 
                 <h3 className="narrow-content text-justify" style={{lineHeight: 1.8, textIndent: "2em"}}>
-                    CesiumGIS is my personal research project.<br/>
+                    CoolGIS is my personal research project.<br/>
                     My dream is to develop a wonderful 3D Web GIS system that has many useful features such as
                     rendering a variety of geospatial data, unique 3D spatial analysis, advanced digitizing ability
                     like 2D GIS and time-dynamic simulation.

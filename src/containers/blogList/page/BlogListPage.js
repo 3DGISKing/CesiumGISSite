@@ -82,6 +82,13 @@ export default function BlogListPage (props) {
 
     document.title = props.category;
 
+    let title = props.category;
+
+    if(title === "CesiumJs") {
+        // by Cesium's Kyle Heisey' s request
+        title = "My CesiumJs Projects"
+    }
+
     return (
        <Fragment>
            <Header/>
@@ -91,7 +98,7 @@ export default function BlogListPage (props) {
 
                <div className="page-section first blog-header even-padding">
                    <div className="container text-center">
-                       <h1 className="large">{props.category}</h1>
+                       <h1 className="large">{title}</h1>
                    </div>
                </div>
 
