@@ -1,5 +1,11 @@
 # Change Log
 
+### 1.0.4 - 2025-10-30
+
+#### Fixed
+
+- error:0308010C:digital envelope routines::unsupported.
+
 ### 1.0.3 - 2023-01-28
 
 #### Updated
